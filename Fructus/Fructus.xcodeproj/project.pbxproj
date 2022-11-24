@@ -353,7 +353,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Fructus/Preview Content\"";
-				DEVELOPMENT_TEAM = 3QTM8FVTM7;
+				DEVELOPMENT_TEAM = S62R7GUKHV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Fructus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -361,7 +361,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sampmcline-gmail.com.Fructus";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftuimasterclass.Fructus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -375,7 +375,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Fructus/Preview Content\"";
-				DEVELOPMENT_TEAM = 3QTM8FVTM7;
+				DEVELOPMENT_TEAM = S62R7GUKHV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Fructus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -383,7 +383,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sampmcline-gmail.com.Fructus";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftuimasterclass.Fructus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

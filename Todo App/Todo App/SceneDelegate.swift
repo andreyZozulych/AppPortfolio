@@ -1,7 +1,7 @@
 //
-//  Created by Andrii Zozulych
+//  Created by Robert Petras
 //  SwiftUI Masterclass ♥ Better Apps. Less Code.
-//  
+//  https://swiftuimasterclass.com
 //
 
 import UIKit

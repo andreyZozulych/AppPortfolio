@@ -1,7 +1,6 @@
 //
 //  Created by Andrii Zozulych
 
-
 import SwiftUI
 
 struct SettingsRowView: View {

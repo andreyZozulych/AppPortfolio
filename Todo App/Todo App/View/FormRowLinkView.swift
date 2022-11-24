@@ -1,7 +1,7 @@
 //
-//  Created by Andrii Zozulych
+//  Created by Robert Petras
 //  SwiftUI Masterclass ♥ Better Apps. Less Code.
-//  
+//  https://swiftuimasterclass.com
 //
 
 import SwiftUI
@@ -50,7 +50,7 @@ struct FormRowLinkView: View {
 
 struct FormRowLinkView_Previews: PreviewProvider {
   static var previews: some View {
-    FormRowLinkView(icon: "globe", color: Color.pink, text: "Website", link: "")
+    FormRowLinkView(icon: "globe", color: Color.pink, text: "Website", link: "https://swiftuimasterclass.com")
       .previewLayout(.fixed(width: 375, height: 60))
       .padding()
   }

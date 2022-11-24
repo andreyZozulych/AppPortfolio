@@ -1,8 +1,4 @@
-//
-//  Constant.swift
-//  Touchdown
-//
-//  Created by Andrii Zozulych on 20.09.2021.
+// Created by Andrii Zozulych
 //
 
 import SwiftUI
@@ -22,10 +18,10 @@ let colorGray: Color = Color(UIColor.systemGray4)
 
 // LAYOUT
 
-let columSpacing: CGFloat = 10
+let columnSpacing: CGFloat = 10
 let rowSpacing: CGFloat = 10
-var gridLayout: [GridItem]{
-    return Array(repeating: GridItem(.flexible(), spacing: rowSpacing), count: 2)
+var gridLayout: [GridItem] {
+  return Array(repeating: GridItem(.flexible(), spacing: rowSpacing), count: 2)
 }
 
 // UX
@@ -33,11 +29,7 @@ var gridLayout: [GridItem]{
 let feedback = UIImpactFeedbackGenerator(style: .medium)
 
 // API
-
 // IMAGE
-
 // FONT
-
 // STRING
-
 // MISC

@@ -1,7 +1,7 @@
 //
-//  Created by Andrii Zozulych
+//  Created by Robert Petras
 //  SwiftUI Masterclass ♥ Better Apps. Less Code.
-//   
+//  https://swiftuimasterclass.com 
 //
 
 import SwiftUI
@@ -49,7 +49,12 @@ struct SettingsView: View {
             ) {
               ForEach(0..<iconSettings.iconNames.count) { index in
                 HStack {
-                  
+                  Image(uiImage: UIImage(named: self.iconSettings.iconNames[index] ?? "Blue") ?? UIImage())
+                    .renderingMode(.original)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 44, height: 44)
+                    .cornerRadius(8)
                   
                   Spacer().frame(width: 8)
                   
@@ -115,7 +120,7 @@ struct SettingsView: View {
           // MARK: - SECTION 3
           
           Section(header: Text("Follow us on social media")) {
-            FormRowLinkView(icon: "globe", color: Color.pink, text: "Website", link: "")
+            FormRowLinkView(icon: "globe", color: Color.pink, text: "Website", link: "https://swiftuimasterclass.com")
             FormRowLinkView(icon: "link", color: Color.blue, text: "Twitter", link: "https://twitter.com/robertpetras")
             FormRowLinkView(icon: "play.rectangle", color: Color.green, text: "Courses", link: "https://www.udemy.com/user/robert-petras")
           } //: SECTION 3
@@ -126,8 +131,8 @@ struct SettingsView: View {
           Section(header: Text("About the application")) {
             FormRowStaticView(icon: "gear", firstText: "Application", secondText: "Todo")
             FormRowStaticView(icon: "checkmark.seal", firstText: "Compatibility", secondText: "iPhone, iPad")
-            FormRowStaticView(icon: "keyboard", firstText: "Developer", secondText: "Andrii Zozulych")
-            FormRowStaticView(icon: "paintbrush", firstText: "Designer", secondText: "Andrii Zozulych")
+            FormRowStaticView(icon: "keyboard", firstText: "Developer", secondText: "John / Jane")
+            FormRowStaticView(icon: "paintbrush", firstText: "Designer", secondText: "Robert Petras")
             FormRowStaticView(icon: "flag", firstText: "Version", secondText: "1.5.0")
           } //: SECTION 4
             .padding(.vertical, 3)

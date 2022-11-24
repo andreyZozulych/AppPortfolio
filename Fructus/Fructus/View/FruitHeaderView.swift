@@ -1,8 +1,5 @@
 //
 //  Created by Andrii Zozulych
-//  SwiftUI Masterclass ♥ Better Apps. Less Code.
-//  
-//
 
 import SwiftUI
 

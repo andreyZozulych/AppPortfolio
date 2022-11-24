@@ -1,15 +1,10 @@
-//
-//  CategoryModel.swift
-//  Touchdown
-//
-//  Created by Andrii Zozulych on 21.09.2021.
+// Created by Andrii Zozulych
 //
 
 import Foundation
 
-
 struct Category: Codable, Identifiable {
-    let id: Int
-    let name: String
-    let image: String
+  let id: Int
+  let name: String
+  let image: String
 }

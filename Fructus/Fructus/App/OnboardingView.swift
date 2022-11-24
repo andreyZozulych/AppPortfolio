@@ -1,30 +1,31 @@
 //
-//  OnboardingView.swift
-//  UIFruits
-//
-//  Created by Andrii Zozulych on 10.08.2021.
-//
+//  Created by Andrii Zozulych
 
 import SwiftUI
 
 struct OnboardingView: View {
-    // MARK: - Properties
-    var fruits: [Fruit] = fruitsData
-    // MARK: - Body
-    var body: some View {
-        TabView{
-            ForEach(fruits) { item in
-                FruitCardView(fruit: item)
-            }
-            //: Loop
-        } //: Tab
-        .tabViewStyle(PageTabViewStyle())
-        .padding(.vertical,20)
-    }
+  // MARK: - PROPERTIES
+  
+  var fruits: [Fruit] = fruitsData
+  
+  // MARK: - BODY
+  
+  var body: some View {
+    TabView {
+      ForEach(fruits[0...5]) { item in
+        FruitCardView(fruit: item)
+      } //: LOOP
+    } //: TAB
+    .tabViewStyle(PageTabViewStyle())
+    .padding(.vertical, 20)
+  }
 }
-// MARK: - Preview
+
+// MARK: - PREVIEW
+
 struct OnboardingView_Previews: PreviewProvider {
-    static var previews: some View {
-        OnboardingView().previewDevice("iPhone 12 Pro").previewDisplayName("iPhone 12 Pro")
-    }
+  static var previews: some View {
+    OnboardingView(fruits: fruitsData)
+      .previewDevice("iPhone 11 Pro")
+  }
 }

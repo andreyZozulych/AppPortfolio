@@ -1,14 +1,9 @@
-//
-//  Shop.swift
-//  Touchdown
-//
-//  Created by Andrii Zozulych on 22.09.2021.
+// Created by Andrii Zozulych
 //
 
 import Foundation
 
 class Shop: ObservableObject {
-    @Published var showingProduct: Bool = false
-    @Published var selectedProduct: Product? = nil
-    
+  @Published var showingProduct: Bool = false
+  @Published var selectedProduct: Product? //= nil 
 }

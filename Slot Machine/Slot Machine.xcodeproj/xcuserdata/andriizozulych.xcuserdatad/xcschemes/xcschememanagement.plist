@@ -7,12 +7,25 @@
 		<key>Slot Machine Stickers.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Slot Machine.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3A7A4067241BB248009B030F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3A7CA91E243BB43100876296</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
